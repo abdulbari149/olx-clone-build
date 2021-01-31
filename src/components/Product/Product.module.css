@@ -1,0 +1,85 @@
+.product__image {
+  height: 55%;
+  display: block;
+}
+.product__image > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product__info {
+  padding: 15px 15px 0px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.product__info > h3 {
+  font-size: 2.1rem;
+  letter-spacing: 0.5px;
+  color: #101010;
+}
+.product__info > p {
+  font-weight: lighter;
+  line-height: 1.5;
+  font-size: 1.425rem;
+  color: #747474;
+  text-transform: capitalize;
+}
+.product__info > .description {
+  font-weight: normal;
+  color: #000;
+}
+
+.product__details{
+  width: 100%;
+  margin-top: auto;
+}
+
+.product__details > span{
+  display: inline-block;
+  font-size: 1.075rem;
+}
+.product__details > span:last-child{
+  float: right;
+}
+
+.extras{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.featured{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+}
+.featured label{
+  margin-top: 8px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.featured label > span{
+  font-size: 10px;
+  padding: 4px 8px;
+  font-weight: 700;
+  display: block;
+  
+}
+.featured > .line{
+  height: 120px;
+  width: 6px;
+}
+.featured span{
+  background-color: #ffce32;
+  color: #002f34;
+}

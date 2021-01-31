@@ -1,0 +1,42 @@
+.Navbar{
+  width: 100vw;
+  height: 45px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.315);
+  background-color: #ffffff;
+}
+.Navbar__container {
+  margin: 0 auto;
+  max-width: 128rem;
+  display: flex;
+  align-items: center;
+}
+.Navbar__categories{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15rem;
+  cursor: pointer;
+}
+.Navbar h6 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.Navbar__list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.Navbar__item{
+    line-height: 45px;
+    font-size : 1.4rem;
+    color : black;
+    font-weight : normal;
+    margin-right :15px;
+    cursor: pointer;
+}
+.Navbar__item:hover{
+  color: #6aece6;
+}
+.Navbar__link{
+  color: inherit;
+}
